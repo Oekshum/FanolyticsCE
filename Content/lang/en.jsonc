@@ -1,12 +1,46 @@
 {
-  "template_modid": {
-    "": "Template Mod",
-    "description": "This mod is the _Template Mod_, or someone *forgot* to exchange the description.",
+  "fanolytics": {
+    "": "Fanolytics",
+    "description": "Introduces the Fanolytic Elements and their transmutations",
     "atoms": {
-      "test_atom": {
-        "": "Test Atom",
-        "elemental": "Elemental Test Atom"
+      "carium": {
+        "": "Carium",
+        "elemental": "Elemental Carium"
+      },
+      "horton": {
+        "": "Horton",
+        "elemental": "Elemental Horton"
+      },
+      "knuth": {
+        "": "Knuth",
+        "elemental": "Elemental Knuth"
+      },
+      "fano": {
+        "": "Fano",
+        "elemental": "Elemental Fano"
+      },
+      "sanders": {
+        "": "Sanders",
+        "elemental": "Elemental Sanders"
+      },
+      "coxeter": {
+        "": "Coxeter",
+        "elemental": "Elemental Coxeter"
+      },
+      "klein": {
+        "": "Klein",
+        "elemental": "Elemental Klein"
       }
+    },
+    "parts": {
+      "reflection": {
+        "": "Glyph of Reflection",
+        "description": "The Glyph of Reflection transmutes a Fanolytic element by reflecting it across the bowl's Fanolytic."
+      }
+    },
+    "permission_sections": "Fanolytics",
+    "permissions": {
+      "reflection": "Glyph of Reflection"
     }
   }
 }

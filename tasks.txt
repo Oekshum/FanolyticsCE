@@ -1,27 +1,19 @@
 Tasks:
 * strings --onlyOnChange
 * intermediary --onlyOnChange
-* newMod -name "TemplateModFolderName"
-* copy -toMod "TemplateModFolderName" -from "D:\C#_projects\TemplateMod\modMeta.jsonc"
-* copy -toMod "TemplateModFolderName" -from "D:\C#_projects\TemplateMod\bin\Debug\net10.0\TemplateMod.dll"
-* copy -toMod "TemplateModFolderName" -from "D:\C#_projects\TemplateMod\bin\Debug\net10.0\TemplateMod.pdb"
-* copy -toMod "TemplateModFolderName" -from "D:\C#_projects\TemplateMod\bin\Debug\net10.0\TemplateMod.xml"
-* copy -toMod "TemplateModFolderName" -from "D:\C#_projects\TemplateMod\Content"
-* devMerge --onlyOnChange --mergeXML -id "template_modid" 
+* newMod -name "FanolyticsCE"
+* copy -toMod "FanolyticsCE" -from "C:\Users\Xan\source\repos\FanolyticsCE\modMeta.jsonc"
+* copy -toMod "FanolyticsCE" -from "C:\Users\Xan\source\repos\FanolyticsCE\bin\Debug\net10.0\Fanolytics.dll"
+* copy -toMod "FanolyticsCE" -from "C:\Users\Xan\source\repos\FanolyticsCE\bin\Debug\net10.0\Fanolytics.pdb"
+* copy -toMod "FanolyticsCE" -from "C:\Users\Xan\source\repos\FanolyticsCE\bin\Debug\net10.0\Fanolytics.xml"
+* copy -toMod "FanolyticsCE" -from "C:\Users\Xan\source\repos\FanolyticsCE\Content"
+* devMerge --onlyOnChange --mergeXML -id "fanolytics" 
 * merge --onlyOnChange --asNamed
-* export -name "TemplateModFolderName" -outputPath "D:\C#_projects\TemplateMod\TestEnvironment\_builds"
+* export -name "FanolyticsCE" -outputPath "C:\Users\Xan\source\repos\FanolyticsCE\TestEnvironment\_builds"
 * run --readLogs -args "-devEnv -pseudoLang"
 
 AutoExit:
-  false
+true
 
-# Included just to copy the tasks.txt into a versionned folder.
-# Comment out if you don't want to keep a spare copy of this in your repository.
 # CopyTasksPath:
-# D:\C#_projects\TemplateMod
-
-# Mods to also include in the devMerge task other than your direct dependencies. ( Replace # with * for list. )
-# Shoul be used with care, allways test without these optional dependencies enabled!
-# DevMods:
-# optional_dep_1
-# optional_dep_2
+# C:\Users\Xan\source\repos\FanolyticsCE
