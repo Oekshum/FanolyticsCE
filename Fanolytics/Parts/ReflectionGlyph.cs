@@ -96,7 +96,7 @@ namespace Parts
                 inputAtomA.molecule.RemoveAtom(inputAtomA.pos);
                 seb.DrawFallingAtom(inputAtomA);
 
-                sim.SpawnColliderRelative(part, iris);
+                sim.SpawnColliderRelative(part, ReflectionOutput);
 
                 // mark glyph to render and what to output
                 pss.isProcessing = true;

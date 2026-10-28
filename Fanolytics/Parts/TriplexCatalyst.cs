@@ -109,8 +109,10 @@ namespace Parts
                         molecule = molecule.MergeWith(inputAtom2.molecule);
                         sim.molecules.Add(molecule);
                     }
+                    //re-find atom 3 in case it was merged with atom 1 or 2
+                    sim.FindAtom(socket3).GetOrDefault(out inputAtom3);
                     //combine atoms 1 and 3
-                    if (molecule != inputAtom2.molecule)
+                    if (molecule != inputAtom3.molecule)
                     {
                         sim.molecules.Remove(molecule);
                         sim.molecules.Remove(inputAtom3.molecule);

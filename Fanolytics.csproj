@@ -10,15 +10,9 @@
 
 	<PropertyGroup>
 		<!-- Path to Opus Magnum folder, Contains Lightning.exe et.al -->
-		<OpusDir>C:\Users\Xan\source\repos\FanolyticsCE\TestEnvironment\OMTestEnviroment</OpusDir>
+		<OpusDir>C:\Users\wilmo\source\repos\FanolyticsCE\TestEnvironment</OpusDir>
 		<PlatformTarget>x64</PlatformTarget>
 	</PropertyGroup>
-
-	<ItemGroup>
-	  <Compile Remove="TestEnvironment\OMTestEnviroment\**" />
-	  <EmbeddedResource Remove="TestEnvironment\OMTestEnviroment\**" />
-	  <None Remove="TestEnvironment\OMTestEnviroment\**" />
-	</ItemGroup>
 
   <ItemGroup>
     <Reference Include="DevLightning">

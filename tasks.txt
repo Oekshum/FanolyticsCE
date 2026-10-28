@@ -2,18 +2,18 @@ Tasks:
 * strings --onlyOnChange
 * intermediary --onlyOnChange
 * newMod -name "FanolyticsCE"
-* copy -toMod "FanolyticsCE" -from "C:\Users\Xan\source\repos\FanolyticsCE\modMeta.jsonc"
-* copy -toMod "FanolyticsCE" -from "C:\Users\Xan\source\repos\FanolyticsCE\bin\Debug\net10.0\Fanolytics.dll"
-* copy -toMod "FanolyticsCE" -from "C:\Users\Xan\source\repos\FanolyticsCE\bin\Debug\net10.0\Fanolytics.pdb"
-* copy -toMod "FanolyticsCE" -from "C:\Users\Xan\source\repos\FanolyticsCE\bin\Debug\net10.0\Fanolytics.xml"
-* copy -toMod "FanolyticsCE" -from "C:\Users\Xan\source\repos\FanolyticsCE\Content"
+* copy -toMod "FanolyticsCE" -from "C:\Users\wilmo\source\repos\FanolyticsCE\modMeta.jsonc"
+* copy -toMod "FanolyticsCE" -from "C:\Users\wilmo\source\repos\FanolyticsCE\bin\Debug\net10.0\Fanolytics.dll"
+* copy -toMod "FanolyticsCE" -from "C:\Users\wilmo\source\repos\FanolyticsCE\bin\Debug\net10.0\Fanolytics.pdb"
+* copy -toMod "FanolyticsCE" -from "C:\Users\wilmo\source\repos\FanolyticsCE\bin\Debug\net10.0\Fanolytics.xml"
+* copy -toMod "FanolyticsCE" -from "C:\Users\wilmo\source\repos\FanolyticsCE\Content"
 * devMerge --onlyOnChange --mergeXML -id "fanolytics" 
 * merge --onlyOnChange --asNamed
-* export -name "FanolyticsCE" -outputPath "C:\Users\Xan\source\repos\FanolyticsCE\TestEnvironment\_builds"
+* export -name "FanolyticsCE" -outputPath "C:\Users\wilmo\source\repos\FanolyticsCE\TestEnvironment\_builds"
 * run --readLogs -args "-devEnv -pseudoLang"
 
 AutoExit:
 true
 
 # CopyTasksPath:
-# C:\Users\Xan\source\repos\FanolyticsCE
+# C:\Users\wilmo\source\repos\FanolyticsCE

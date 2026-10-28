@@ -5,8 +5,8 @@
     },
     "Run With Opus Mutatum": {
       "commandName": "Executable",
-      "executablePath": "C:\\Users\\Xan\\source\\repos\\FanolyticsCE\\TestEnvironment\\OMTestEnviroment\\OpusMutatum.exe",
-      "workingDirectory": "C:\\Users\\Xan\\source\\repos\\FanolyticsCE\\TestEnvironment\\OMTestEnviroment"
+      "executablePath": "C:\\Users\\wilmo\\source\\repos\\FanolyticsCE\\TestEnvironment\\OpusMutatum.exe",
+      "workingDirectory": "C:\\Users\\wilmo\\source\\repos\\FanolyticsCE\\TestEnvironment"
     }
   }
 }
